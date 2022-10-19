@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
 /*
 ! tailwindcss v3.1.8 | MIT License | https://tailwindcss.com
 */
@@ -410,7 +412,7 @@ video {
   height: auto;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -457,7 +459,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::-webkit-backdrop {
+::-webkit-backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -504,7 +506,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -549,4 +551,109 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.hidden{
+  display: none;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.border-2{
+  border-width: 2px;
+}
+
+.border-primary{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 99 99 / var(--tw-border-opacity));
+}
+
+.bg-secondary-200{
+  background-color: #724949FF;
+}
+
+.font-body{
+  font-family: Roboto Mono;
+}
+
+.text-secondary-200{
+  color: #724949FF;
+}
+
+.text-secondary-100{
+  color: #4C1B1BFF;
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: rgb(255 99 99 / var(--tw-text-opacity));
+}
+
+.my-responsive{
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 211 77 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px){
+  .my-responsive{
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 158 11 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 768px){
+  .my-responsive{
+    --tw-bg-opacity: 1;
+    background-color: rgb(217 119 6 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1024px){
+  .my-responsive{
+    --tw-bg-opacity: 1;
+    background-color: rgb(180 83 9 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1280px){
+  .my-responsive{
+    --tw-bg-opacity: 1;
+    background-color: rgb(146 64 14 / var(--tw-bg-opacity));
+  }
 }
