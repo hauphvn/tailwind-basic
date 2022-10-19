@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-basic",
+  "version": "1.0.0",
+  "description": "This is a course tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hauphvn/tailwind-basic.git"
+  },
+  "keywords": [
+    "tailwind-basic"
+  ],
+  "author": "hauphvn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hauphvn/tailwind-basic/issues"
+  },
+  "homepage": "https://github.com/hauphvn/tailwind-basic#readme",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
