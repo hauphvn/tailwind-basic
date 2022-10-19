@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;1,100;1,200&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-responsive {
+    @apply bg-amber-300 sm:bg-amber-500 md:bg-amber-600 lg:bg-amber-700 xl:bg-amber-800;
+}
